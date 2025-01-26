@@ -1,0 +1,1 @@
+$particle $(type) ^$(pos_left) ^$(pos_up) ^$(pos_front) $(sx) $(sy) $(sz) $(speed) $(count)
