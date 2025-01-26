@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "player_interact":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"tabletop\"]}"
+                },
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": "firework_star",
+                            "predicates": {
+                                "custom_data": {
+                                    "ct_coin": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ct:player/toss_coin"
+    }
+}
