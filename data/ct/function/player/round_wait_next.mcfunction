@@ -12,4 +12,4 @@ execute as @e[type=text_display,tag=gened_coin] run kill @s
 
 kill @n[type=text_display,tag=next_level_hint_collect]
 
-execute at @e[type=marker,tag=table_mainui_slot_next] run summon text_display ~ ~ ~ {Tags:["mainui_hint_next"],text:'"继续 ▶"',alignment:"center",transformation:[0,100,0,0,0,0,100,0,100,0,0,0,0,0,0,100],background:0}
+execute at @e[type=marker,tag=table_mainui_slot_next] run summon text_display ~ ~ ~ {Tags:["mainui_hint_next"],text:'"继续 ▶"',alignment:"center",transformation:[100,0,0,0,0,0,100,0,0,-100,0,0,0,0,0,120],background:0}

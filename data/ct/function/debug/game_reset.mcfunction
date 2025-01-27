@@ -21,7 +21,7 @@ execute as @e[type=text_display,tag=landed_coin] run kill @s
 execute as @e[type=text_display,tag=gened_coin] on passengers run kill @s
 execute as @e[type=text_display,tag=gened_coin] run kill @s
 
-execute at @e[type=marker,tag=table_mainui_slot_startgame] run summon text_display ~ ~ ~ {Tags:["main_ui"],text:'"▶ 开始游戏"',alignment:"center",transformation:[0,100,0,0,0,0,100,0,100,0,0,0,0,0,0,50],background:0}
+execute at @e[type=marker,tag=table_mainui_slot_startgame] run summon text_display ~ ~ ~ {Tags:["main_ui"],text:'"▶ 开始游戏"',alignment:"center",transformation:[100,0,0,0,0,0,100,0,0,-100,0,0,0,0,0,80],background:0}
 
 clear @a
 title @a actionbar ""
