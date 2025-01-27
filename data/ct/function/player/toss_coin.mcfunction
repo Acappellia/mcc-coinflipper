@@ -30,8 +30,8 @@ execute store result score #toss_coin_id ct store result storage ct:tmp toss_res
 
 #random result
 execute store result score #toss_ani_id ct store result storage ct:tmp toss_result.ani_id int 1 run random value 0..1
-execute if score #toss_ani_id ct matches 0 run scoreboard players set #toss_ishead ct 1
-execute if score #toss_ani_id ct matches 1 run scoreboard players set #toss_ishead ct 0
+execute if score #toss_ani_id ct matches 1 run scoreboard players set #toss_ishead ct 1
+execute if score #toss_ani_id ct matches 0 run scoreboard players set #toss_ishead ct 0
 execute store result storage ct:tmp toss_result.ishead int 1 run scoreboard players get #toss_ishead ct
 
 #special coin
@@ -45,5 +45,10 @@ item replace entity @s weapon.mainhand with air
 scoreboard players remove #toss_left ct 1
 playsound block.amethyst_block.step player @a ~ ~ ~ 1 2
 
+#special coin
+execute if score #toss_coin_id ct matches 13 run function ct:special_coins/13_toss
+
 #toss
+scoreboard players set #ani_is_coin ct 1
 execute at @e[type=marker,distance=..10,tag=table_mainui_slot_center] run function ps:animation/add with storage ct:tmp toss_result
+scoreboard players reset #ani_is_coin ct

@@ -16,6 +16,17 @@ execute if score #assigned_obj_id ps matches 1 run summon text_display ~ ~ ~ {al
 {id:"item_display",Tags:["part_7"]},\
 {id:"item_display",Tags:["part_8"]},\
 {id:"item_display",Tags:["part_9"]},\
+{id:"item_display",Tags:["part_10"]},\
+{id:"item_display",Tags:["part_11"]},\
+{id:"item_display",Tags:["part_12"]},\
+{id:"item_display",Tags:["part_13"]},\
+{id:"item_display",Tags:["part_14"]},\
+{id:"item_display",Tags:["part_15"]},\
+{id:"item_display",Tags:["part_16"]},\
+{id:"item_display",Tags:["part_17"]},\
+{id:"item_display",Tags:["part_18"]},\
+{id:"item_display",Tags:["part_19"]},\
+{id:"item_display",Tags:["part_20"]},\
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 2 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,2],Tags:["new_obj","ani"],Passengers:[\
@@ -28,6 +39,17 @@ execute if score #assigned_obj_id ps matches 2 run summon text_display ~ ~ ~ {al
 {id:"item_display",Tags:["part_7"]},\
 {id:"item_display",Tags:["part_8"]},\
 {id:"item_display",Tags:["part_9"]},\
+{id:"item_display",Tags:["part_10"]},\
+{id:"item_display",Tags:["part_11"]},\
+{id:"item_display",Tags:["part_12"]},\
+{id:"item_display",Tags:["part_13"]},\
+{id:"item_display",Tags:["part_14"]},\
+{id:"item_display",Tags:["part_15"]},\
+{id:"item_display",Tags:["part_16"]},\
+{id:"item_display",Tags:["part_17"]},\
+{id:"item_display",Tags:["part_18"]},\
+{id:"item_display",Tags:["part_19"]},\
+{id:"item_display",Tags:["part_20"]},\
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 3 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,3],Tags:["new_obj","ani"],Passengers:[\
@@ -40,6 +62,17 @@ execute if score #assigned_obj_id ps matches 3 run summon text_display ~ ~ ~ {al
 {id:"item_display",Tags:["part_7"]},\
 {id:"item_display",Tags:["part_8"]},\
 {id:"item_display",Tags:["part_9"]},\
+{id:"item_display",Tags:["part_10"]},\
+{id:"item_display",Tags:["part_11"]},\
+{id:"item_display",Tags:["part_12"]},\
+{id:"item_display",Tags:["part_13"]},\
+{id:"item_display",Tags:["part_14"]},\
+{id:"item_display",Tags:["part_15"]},\
+{id:"item_display",Tags:["part_16"]},\
+{id:"item_display",Tags:["part_17"]},\
+{id:"item_display",Tags:["part_18"]},\
+{id:"item_display",Tags:["part_19"]},\
+{id:"item_display",Tags:["part_20"]},\
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 4 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,4],Tags:["new_obj","ani"],Passengers:[\
@@ -52,6 +85,17 @@ execute if score #assigned_obj_id ps matches 4 run summon text_display ~ ~ ~ {al
 {id:"item_display",Tags:["part_7"]},\
 {id:"item_display",Tags:["part_8"]},\
 {id:"item_display",Tags:["part_9"]},\
+{id:"item_display",Tags:["part_10"]},\
+{id:"item_display",Tags:["part_11"]},\
+{id:"item_display",Tags:["part_12"]},\
+{id:"item_display",Tags:["part_13"]},\
+{id:"item_display",Tags:["part_14"]},\
+{id:"item_display",Tags:["part_15"]},\
+{id:"item_display",Tags:["part_16"]},\
+{id:"item_display",Tags:["part_17"]},\
+{id:"item_display",Tags:["part_18"]},\
+{id:"item_display",Tags:["part_19"]},\
+{id:"item_display",Tags:["part_20"]},\
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 5 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,5],Tags:["new_obj","ani"],Passengers:[\
@@ -64,6 +108,17 @@ execute if score #assigned_obj_id ps matches 5 run summon text_display ~ ~ ~ {al
 {id:"item_display",Tags:["part_7"]},\
 {id:"item_display",Tags:["part_8"]},\
 {id:"item_display",Tags:["part_9"]},\
+{id:"item_display",Tags:["part_10"]},\
+{id:"item_display",Tags:["part_11"]},\
+{id:"item_display",Tags:["part_12"]},\
+{id:"item_display",Tags:["part_13"]},\
+{id:"item_display",Tags:["part_14"]},\
+{id:"item_display",Tags:["part_15"]},\
+{id:"item_display",Tags:["part_16"]},\
+{id:"item_display",Tags:["part_17"]},\
+{id:"item_display",Tags:["part_18"]},\
+{id:"item_display",Tags:["part_19"]},\
+{id:"item_display",Tags:["part_20"]},\
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 6 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,6],Tags:["new_obj","ani"],Passengers:[\
@@ -76,6 +131,17 @@ execute if score #assigned_obj_id ps matches 6 run summon text_display ~ ~ ~ {al
 {id:"item_display",Tags:["part_7"]},\
 {id:"item_display",Tags:["part_8"]},\
 {id:"item_display",Tags:["part_9"]},\
+{id:"item_display",Tags:["part_10"]},\
+{id:"item_display",Tags:["part_11"]},\
+{id:"item_display",Tags:["part_12"]},\
+{id:"item_display",Tags:["part_13"]},\
+{id:"item_display",Tags:["part_14"]},\
+{id:"item_display",Tags:["part_15"]},\
+{id:"item_display",Tags:["part_16"]},\
+{id:"item_display",Tags:["part_17"]},\
+{id:"item_display",Tags:["part_18"]},\
+{id:"item_display",Tags:["part_19"]},\
+{id:"item_display",Tags:["part_20"]},\
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 7 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,7],Tags:["new_obj","ani"],Passengers:[\
@@ -88,6 +154,17 @@ execute if score #assigned_obj_id ps matches 7 run summon text_display ~ ~ ~ {al
 {id:"item_display",Tags:["part_7"]},\
 {id:"item_display",Tags:["part_8"]},\
 {id:"item_display",Tags:["part_9"]},\
+{id:"item_display",Tags:["part_10"]},\
+{id:"item_display",Tags:["part_11"]},\
+{id:"item_display",Tags:["part_12"]},\
+{id:"item_display",Tags:["part_13"]},\
+{id:"item_display",Tags:["part_14"]},\
+{id:"item_display",Tags:["part_15"]},\
+{id:"item_display",Tags:["part_16"]},\
+{id:"item_display",Tags:["part_17"]},\
+{id:"item_display",Tags:["part_18"]},\
+{id:"item_display",Tags:["part_19"]},\
+{id:"item_display",Tags:["part_20"]},\
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 8 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,8],Tags:["new_obj","ani"],Passengers:[\
@@ -100,6 +177,17 @@ execute if score #assigned_obj_id ps matches 8 run summon text_display ~ ~ ~ {al
 {id:"item_display",Tags:["part_7"]},\
 {id:"item_display",Tags:["part_8"]},\
 {id:"item_display",Tags:["part_9"]},\
+{id:"item_display",Tags:["part_10"]},\
+{id:"item_display",Tags:["part_11"]},\
+{id:"item_display",Tags:["part_12"]},\
+{id:"item_display",Tags:["part_13"]},\
+{id:"item_display",Tags:["part_14"]},\
+{id:"item_display",Tags:["part_15"]},\
+{id:"item_display",Tags:["part_16"]},\
+{id:"item_display",Tags:["part_17"]},\
+{id:"item_display",Tags:["part_18"]},\
+{id:"item_display",Tags:["part_19"]},\
+{id:"item_display",Tags:["part_20"]},\
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 9 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,9],Tags:["new_obj","ani"],Passengers:[\
@@ -112,6 +200,17 @@ execute if score #assigned_obj_id ps matches 9 run summon text_display ~ ~ ~ {al
 {id:"item_display",Tags:["part_7"]},\
 {id:"item_display",Tags:["part_8"]},\
 {id:"item_display",Tags:["part_9"]},\
+{id:"item_display",Tags:["part_10"]},\
+{id:"item_display",Tags:["part_11"]},\
+{id:"item_display",Tags:["part_12"]},\
+{id:"item_display",Tags:["part_13"]},\
+{id:"item_display",Tags:["part_14"]},\
+{id:"item_display",Tags:["part_15"]},\
+{id:"item_display",Tags:["part_16"]},\
+{id:"item_display",Tags:["part_17"]},\
+{id:"item_display",Tags:["part_18"]},\
+{id:"item_display",Tags:["part_19"]},\
+{id:"item_display",Tags:["part_20"]},\
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 

@@ -12,6 +12,17 @@ execute if data storage ps:tmp frame_data.part_6 on passengers as @s[tag=part_6]
 execute if data storage ps:tmp frame_data.part_7 on passengers as @s[tag=part_7] run data modify entity @s {} merge from storage ps:tmp frame_data.part_7
 execute if data storage ps:tmp frame_data.part_8 on passengers as @s[tag=part_8] run data modify entity @s {} merge from storage ps:tmp frame_data.part_8
 execute if data storage ps:tmp frame_data.part_9 on passengers as @s[tag=part_9] run data modify entity @s {} merge from storage ps:tmp frame_data.part_9
+execute if data storage ps:tmp frame_data.part_10 on passengers as @s[tag=part_10] run data modify entity @s {} merge from storage ps:tmp frame_data.part_10
+execute if data storage ps:tmp frame_data.part_11 on passengers as @s[tag=part_11] run data modify entity @s {} merge from storage ps:tmp frame_data.part_11
+execute if data storage ps:tmp frame_data.part_12 on passengers as @s[tag=part_12] run data modify entity @s {} merge from storage ps:tmp frame_data.part_12
+execute if data storage ps:tmp frame_data.part_13 on passengers as @s[tag=part_13] run data modify entity @s {} merge from storage ps:tmp frame_data.part_13
+execute if data storage ps:tmp frame_data.part_14 on passengers as @s[tag=part_14] run data modify entity @s {} merge from storage ps:tmp frame_data.part_14
+execute if data storage ps:tmp frame_data.part_15 on passengers as @s[tag=part_15] run data modify entity @s {} merge from storage ps:tmp frame_data.part_15
+execute if data storage ps:tmp frame_data.part_16 on passengers as @s[tag=part_16] run data modify entity @s {} merge from storage ps:tmp frame_data.part_16
+execute if data storage ps:tmp frame_data.part_17 on passengers as @s[tag=part_17] run data modify entity @s {} merge from storage ps:tmp frame_data.part_17
+execute if data storage ps:tmp frame_data.part_18 on passengers as @s[tag=part_18] run data modify entity @s {} merge from storage ps:tmp frame_data.part_18
+execute if data storage ps:tmp frame_data.part_19 on passengers as @s[tag=part_19] run data modify entity @s {} merge from storage ps:tmp frame_data.part_19
+execute if data storage ps:tmp frame_data.part_20 on passengers as @s[tag=part_20] run data modify entity @s {} merge from storage ps:tmp frame_data.part_20
 
 execute if data storage ps:tmp frame_data.sound at @s run function ps:animation/ticks/sound with storage ps:tmp frame_data.sound
 execute if data storage ps:tmp frame_data.particle at @s run function ps:animation/ticks/particle with storage ps:tmp frame_data.particle

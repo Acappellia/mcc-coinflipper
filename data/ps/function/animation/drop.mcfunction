@@ -9,7 +9,7 @@ execute on passengers run tag @s add dismounted
 #mount new vihicle
 execute on passengers run ride @s dismount
 execute at @s as @e[tag=dismounted,distance=..1] run ride @s mount @n[type=text_display,distance=..1,tag=new_dropped]
-tag @e[tag=dismounted,distance=..1] remove dismounted
+execute at @s run tag @e[tag=dismounted,distance=..1] remove dismounted
 
 #trigger dropped function
 execute at @s as @n[type=text_display,distance=..1,tag=new_dropped] run function ct:player/toss_coin_land

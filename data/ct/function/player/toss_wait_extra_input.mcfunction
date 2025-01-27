@@ -6,5 +6,6 @@ execute if score #toss_coin_id ct matches 8 run return run function ct:special_c
 execute if score #toss_coin_id ct matches 9 run return run function ct:special_coins/9/waitinput
 execute if score #toss_coin_id ct matches 10 run return run function ct:special_coins/10/waitinput
 execute if score #toss_coin_id ct matches 11 run return run function ct:special_coins/11_clone
+execute if score #toss_coin_id ct matches 14 run return run function ct:special_coins/14/trigger
 #no wait exit
 schedule function ct:player/toss_end 5t replace

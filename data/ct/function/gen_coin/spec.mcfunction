@@ -8,4 +8,4 @@ summon text_display ~ ~ ~ {alignment:"center",Tags:["gened_coin"],Passengers:[\
 
 $execute as @n[type=text_display,distance=..1,tag=gened_coin] on passengers as @s[type=item_display] run data modify entity @s item set from storage ct:coin coins.$(coin_id).item
 
-data modify storage ct:table gened_coin append from storage ct:tmp random_coin.coin_id
+$data modify storage ct:table gened_coin append value $(coin_id)
