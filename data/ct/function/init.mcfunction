@@ -80,3 +80,4 @@ scoreboard objectives add coin_ishead dummy
 
 #init player objs
 scoreboard objectives add player_coin_count dummy
+scoreboard objectives add player_tp_cd dummy
