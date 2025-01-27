@@ -9,5 +9,7 @@ execute as @e[type=marker,distance=..10,tag=table_coin_slot] if score @s table_c
 
 data remove storage ct:table coin_list[-2]
 
+scoreboard players add #toss_left ct 1
+
 #end toss
 schedule function ct:player/toss_end 10t replace

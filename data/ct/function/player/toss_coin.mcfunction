@@ -47,6 +47,8 @@ playsound block.amethyst_block.step player @a ~ ~ ~ 1 2
 
 #special coin
 execute if score #toss_coin_id ct matches 13 run function ct:special_coins/13_toss
+execute if score #toss_coin_id ct matches 15 run function ct:special_coins/15_toss
+execute if score #toss_coin_id ct matches 99 run function ct:special_coins/99_toss
 
 #toss
 scoreboard players set #ani_is_coin ct 1
