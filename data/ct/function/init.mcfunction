@@ -55,7 +55,7 @@ execute unless data storage ps:ani available run data modify storage ps:ani avai
 function ct:inits/coin
 
 #init animation data
-data remove storage ps:ani_data ani_data
+data remove storage ps:ani_data data
 function ct:inits/coin_0_head
 function ct:inits/coin_1_head
 function ct:inits/coin_2_head

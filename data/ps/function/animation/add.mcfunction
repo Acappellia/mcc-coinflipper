@@ -7,7 +7,7 @@ data remove storage ps:ani available[0]
 
 #summon
 execute if score #assigned_obj_id ps matches 1 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,1],Tags:["new_obj","ani"],Passengers:[\
-{id:"item_display",Tags:["part_1"]},\
+{id:"item_display",Tags:["part_1"],glow_color_override:3565055},\
 {id:"item_display",Tags:["part_2"]},\
 {id:"item_display",Tags:["part_3"]},\
 {id:"item_display",Tags:["part_4"]},\
@@ -30,7 +30,7 @@ execute if score #assigned_obj_id ps matches 1 run summon text_display ~ ~ ~ {al
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 2 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,2],Tags:["new_obj","ani"],Passengers:[\
-{id:"item_display",Tags:["part_1"]},\
+{id:"item_display",Tags:["part_1"],glow_color_override:3565055},\
 {id:"item_display",Tags:["part_2"]},\
 {id:"item_display",Tags:["part_3"]},\
 {id:"item_display",Tags:["part_4"]},\
@@ -53,7 +53,7 @@ execute if score #assigned_obj_id ps matches 2 run summon text_display ~ ~ ~ {al
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 3 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,3],Tags:["new_obj","ani"],Passengers:[\
-{id:"item_display",Tags:["part_1"]},\
+{id:"item_display",Tags:["part_1"],glow_color_override:3565055},\
 {id:"item_display",Tags:["part_2"]},\
 {id:"item_display",Tags:["part_3"]},\
 {id:"item_display",Tags:["part_4"]},\
@@ -76,7 +76,7 @@ execute if score #assigned_obj_id ps matches 3 run summon text_display ~ ~ ~ {al
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 4 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,4],Tags:["new_obj","ani"],Passengers:[\
-{id:"item_display",Tags:["part_1"]},\
+{id:"item_display",Tags:["part_1"],glow_color_override:3565055},\
 {id:"item_display",Tags:["part_2"]},\
 {id:"item_display",Tags:["part_3"]},\
 {id:"item_display",Tags:["part_4"]},\
@@ -99,7 +99,7 @@ execute if score #assigned_obj_id ps matches 4 run summon text_display ~ ~ ~ {al
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 5 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,5],Tags:["new_obj","ani"],Passengers:[\
-{id:"item_display",Tags:["part_1"]},\
+{id:"item_display",Tags:["part_1"],glow_color_override:3565055},\
 {id:"item_display",Tags:["part_2"]},\
 {id:"item_display",Tags:["part_3"]},\
 {id:"item_display",Tags:["part_4"]},\
@@ -122,7 +122,7 @@ execute if score #assigned_obj_id ps matches 5 run summon text_display ~ ~ ~ {al
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 6 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,6],Tags:["new_obj","ani"],Passengers:[\
-{id:"item_display",Tags:["part_1"]},\
+{id:"item_display",Tags:["part_1"],glow_color_override:3565055},\
 {id:"item_display",Tags:["part_2"]},\
 {id:"item_display",Tags:["part_3"]},\
 {id:"item_display",Tags:["part_4"]},\
@@ -145,7 +145,7 @@ execute if score #assigned_obj_id ps matches 6 run summon text_display ~ ~ ~ {al
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 7 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,7],Tags:["new_obj","ani"],Passengers:[\
-{id:"item_display",Tags:["part_1"]},\
+{id:"item_display",Tags:["part_1"],glow_color_override:3565055},\
 {id:"item_display",Tags:["part_2"]},\
 {id:"item_display",Tags:["part_3"]},\
 {id:"item_display",Tags:["part_4"]},\
@@ -168,7 +168,7 @@ execute if score #assigned_obj_id ps matches 7 run summon text_display ~ ~ ~ {al
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 8 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,8],Tags:["new_obj","ani"],Passengers:[\
-{id:"item_display",Tags:["part_1"]},\
+{id:"item_display",Tags:["part_1"],glow_color_override:3565055},\
 {id:"item_display",Tags:["part_2"]},\
 {id:"item_display",Tags:["part_3"]},\
 {id:"item_display",Tags:["part_4"]},\
@@ -191,7 +191,7 @@ execute if score #assigned_obj_id ps matches 8 run summon text_display ~ ~ ~ {al
 {id:"interaction",Tags:["ani_interaction"]},\
 ]}
 execute if score #assigned_obj_id ps matches 9 run summon text_display ~ ~ ~ {alignment:"center",UUID:[I;0,0,0,9],Tags:["new_obj","ani"],Passengers:[\
-{id:"item_display",Tags:["part_1"]},\
+{id:"item_display",Tags:["part_1"],glow_color_override:3565055},\
 {id:"item_display",Tags:["part_2"]},\
 {id:"item_display",Tags:["part_3"]},\
 {id:"item_display",Tags:["part_4"]},\

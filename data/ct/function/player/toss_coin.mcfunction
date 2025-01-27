@@ -29,8 +29,8 @@ execute store result score #toss_coin_id ct store result storage ct:tmp toss_res
 
 #random result
 execute store result score #toss_ani_id ct store result storage ct:tmp toss_result.ani_id int 1 run random value 0..15
-execute if score #toss_ani_id ct matches 8..15 run scoreboard players set #toss_ishead ct 1
-execute if score #toss_ani_id ct matches 0..7 run scoreboard players set #toss_ishead ct 0
+execute if score #toss_ani_id ct matches 0..7 run scoreboard players set #toss_ishead ct 1
+execute if score #toss_ani_id ct matches 8..15 run scoreboard players set #toss_ishead ct 0
 execute store result storage ct:tmp toss_result.ishead int 1 run scoreboard players get #toss_ishead ct
 
 #special coin
