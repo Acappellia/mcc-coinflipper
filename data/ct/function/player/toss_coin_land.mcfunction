@@ -12,14 +12,14 @@ scoreboard players operation @s coin_id = #toss_coin_id ct
 scoreboard players operation @s coin_ishead = #toss_ishead ct
 
 #move coin
-data modify entity @s teleport_duration set value 5
-#execute on passengers as @s[type=item_display] run data modify entity @s teleport_duration set value 5
+data modify entity @s teleport_duration set value 10
+execute on passengers as @s[type=item_display] run data modify entity @s teleport_duration set value 10
 execute as @e[type=marker,distance=..10,tag=table_coin_slot] if score @s table_coin_index = #coin_list_last ct run tp @n[type=text_display,distance=..10,tag=new_dropped] @s
-execute if score #toss_ishead ct matches 1 on passengers as @s[type=item_display] run data merge entity @s {transformation:[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]}
-execute if score #toss_ishead ct matches 0 on passengers as @s[type=item_display] run data merge entity @s {transformation:[-1,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,1]}
+execute if score #toss_ishead ct matches 1 on passengers as @s[type=item_display] run data merge entity @s {transformation:[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],interpolation_duration:10,start_interpolation:-1}
+execute if score #toss_ishead ct matches 0 on passengers as @s[type=item_display] run data merge entity @s {transformation:[-1,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,1],interpolation_duration:10,start_interpolation:-1}
 
 #schedule next step
-schedule function ct:player/toss_wait_extra_input 7t replace
+schedule function ct:player/toss_wait_extra_input 12t replace
 
 #end
 tag @s remove new_dropped

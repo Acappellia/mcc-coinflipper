@@ -1,7 +1,7 @@
-execute at @e[type=marker,tag=table_coin_slot,tag=table_hint_slot_2b] run function ct:player/round_fail_effect
+execute as @e[type=marker,tag=table_hint_slot_2b] at @s run function ct:player/round_fail_effect
 
-data merge entity @n[type=text_display,tag=round_hint2] {background:1299058961}
-data merge entity @n[type=text_display,tag=round_hint3] {background:1299058961}
+data merge entity @n[type=text_display,tag=round_hint2] {background:-479325935}
+data merge entity @n[type=text_display,tag=round_hint3] {background:-479325935}
 
 scoreboard players remove #player_life ct 1
 execute as @a run damage @s 1
