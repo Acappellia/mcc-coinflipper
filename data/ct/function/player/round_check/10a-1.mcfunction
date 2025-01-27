@@ -4,4 +4,4 @@ scoreboard players set #check_front_counter ct 0
 
 execute if data storage ct:table coin_list[0] run function ct:player/round_check/counter_checkloop
 
-execute if score #check_front_counter ct matches 1.. run scoreboard players set #round_check_result ct 1
+execute if score #check_front_counter ct matches 6.. run scoreboard players set #round_check_result ct 1
