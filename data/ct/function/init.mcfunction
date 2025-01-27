@@ -31,6 +31,8 @@ execute unless score #game_status ct matches 0.. run scoreboard players set #gam
 
 execute unless score #max_rounds ct matches 0.. run scoreboard players set #max_rounds ct 10
 
+scoreboard players set #2 ct 2
+
 #forceload
 forceload add 0 0 0 0
 

@@ -1,0 +1,1 @@
+$data remove storage ct:table coin_list[$(index)]

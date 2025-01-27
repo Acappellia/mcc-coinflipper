@@ -37,6 +37,8 @@ execute store result storage ct:tmp toss_result.ishead int 1 run scoreboard play
 #special coin
 execute if score #toss_coin_id ct matches 2 run function ct:special_coins/2_toss
 execute if score #toss_coin_id ct matches 3 run function ct:special_coins/3_toss
+execute if score #toss_coin_id ct matches 5 run function ct:special_coins/5_toss
+execute if score #toss_coin_id ct matches 6 run function ct:special_coins/6_toss
 
 #remove item
 item replace entity @s weapon.mainhand with air

@@ -1,0 +1,1 @@
+$data modify storage ct:table coin_list[$(index)].ishead set value 0

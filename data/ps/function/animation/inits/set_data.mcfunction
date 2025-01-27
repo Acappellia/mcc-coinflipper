@@ -7,7 +7,8 @@ execute on passengers as @s[type=interaction] run function ps:animation/inits/se
 #set parts model
 data remove storage ps:tmp part_data
 data modify storage ps:tmp part_data set from storage ps:tmp ani_data.parts.part_1
-execute if data storage ps:tmp part_data on passengers as @s[tag=part_1] run function ps:animation/inits/set_models
+execute if data storage ps:tmp part_data if data storage ct:tmp toss_result.coin_id on passengers as @s[tag=part_1] run function ps:animation/inits/set_models_coin
+execute if data storage ps:tmp part_data unless data storage ct:tmp toss_result.coin_id on passengers as @s[tag=part_1] run function ps:animation/inits/set_models
 data remove storage ps:tmp part_data
 data modify storage ps:tmp part_data set from storage ps:tmp ani_data.parts.part_2
 execute if data storage ps:tmp part_data on passengers as @s[tag=part_2] run function ps:animation/inits/set_models
