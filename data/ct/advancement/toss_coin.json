@@ -6,18 +6,6 @@
                 "entity": {
                     "type": "interaction",
                     "nbt": "{Tags:[\"tabletop\"]}"
-                },
-                "player": {
-                    "equipment": {
-                        "mainhand": {
-                            "items": "firework_star",
-                            "predicates": {
-                                "custom_data": {
-                                    "ct_coin": 1
-                                }
-                            }
-                        }
-                    }
                 }
             }
         }

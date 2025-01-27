@@ -1,5 +1,7 @@
 scoreboard players set #round_status ct 5
 
+playsound ui.button.click player @a ~ ~ ~ 0.5 1.3
+
 function ct:give_coin/gened
 
 playsound item.armor.equip_chain player @a ~ ~ ~ 1 1

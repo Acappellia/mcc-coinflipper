@@ -11,9 +11,9 @@ execute if score #round_status ct matches 4 run return run function ct:player/ro
 #next round
 execute if score #round_status ct matches 5 run return run function ct:player/round_end
 
-
 #check if valid
 execute unless score #toss_status ct matches 1 run return -1
+execute unless data entity @s SelectedItem.components."minecraft:custom_data".ct_coin run return -1
 scoreboard players set #toss_status ct 2
 
 kill @e[type=text_display,tag=newbie_hint]
@@ -38,4 +38,4 @@ item replace entity @s weapon.mainhand with air
 scoreboard players remove #toss_left ct 1
 
 #toss
-execute at @e[type=marker,distance=..10,tag=table_mainui_slot_center] run function ps:animation/add with storage ct:tmp toss_result
+#execute at @e[type=marker,distance=..10,tag=table_mainui_slot_center] run function ps:animation/add with storage ct:tmp toss_result

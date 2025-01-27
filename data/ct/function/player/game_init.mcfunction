@@ -1,3 +1,5 @@
+playsound ui.button.click player @a ~ ~ ~ 0.5 1.3
+
 kill @e[type=text_display,tag=main_ui]
 
 scoreboard players set #game_status ct 1
