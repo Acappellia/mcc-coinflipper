@@ -1,0 +1,1 @@
+execute at @e[type=marker,tag=table_mainui_slot_center] run summon text_display ~ ~ ~ {Tags:["newbie_hint"],text:'"点击一枚硬币,将刚才的硬币插入到该位置"',alignment:"center",transformation:[0,100,0,0,0,0,100,0,100,0,0,0,0,0,0,50],background:0}

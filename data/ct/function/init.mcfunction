@@ -52,7 +52,15 @@ execute unless data storage ps:ani available run data modify storage ps:ani avai
 #init coin data
 function ct:inits/coin
 
+#init animation data
+data remove storage ps:ani_data ani_data
+function ct:inits/0_coin_head
+function ct:inits/1_coin_tail
+
 #init scoreboards
 scoreboard objectives add table_coin_index dummy
 scoreboard objectives add coin_id dummy
 scoreboard objectives add coin_ishead dummy
+
+#init player objs
+scoreboard objectives add player_coin_count dummy

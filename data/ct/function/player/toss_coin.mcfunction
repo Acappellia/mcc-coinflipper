@@ -29,14 +29,19 @@ data remove storage ct:tmp toss_result
 execute store result score #toss_coin_id ct store result storage ct:tmp toss_result.coin_id int 1 run data get entity @s SelectedItem.components."minecraft:custom_data".coin_id
 
 #random result
-execute store result score #toss_ani_id ct store result storage ct:tmp toss_result.ani_id int 1 run random value 0..99
-execute if score #toss_ani_id ct matches 0..49 run scoreboard players set #toss_ishead ct 1
-execute if score #toss_ani_id ct matches 50..99 run scoreboard players set #toss_ishead ct 0
+execute store result score #toss_ani_id ct store result storage ct:tmp toss_result.ani_id int 1 run random value 0..1
+execute if score #toss_ani_id ct matches 0 run scoreboard players set #toss_ishead ct 1
+execute if score #toss_ani_id ct matches 1 run scoreboard players set #toss_ishead ct 0
 execute store result storage ct:tmp toss_result.ishead int 1 run scoreboard players get #toss_ishead ct
+
+#special coin
+execute if score #toss_coin_id ct matches 2 run function ct:special_coins/2_toss
+execute if score #toss_coin_id ct matches 3 run function ct:special_coins/3_toss
 
 #remove item
 item replace entity @s weapon.mainhand with air
 scoreboard players remove #toss_left ct 1
+playsound block.amethyst_block.step player @a ~ ~ ~ 1 2
 
 #toss
-#execute at @e[type=marker,distance=..10,tag=table_mainui_slot_center] run function ps:animation/add with storage ct:tmp toss_result
+execute at @e[type=marker,distance=..10,tag=table_mainui_slot_center] run function ps:animation/add with storage ct:tmp toss_result

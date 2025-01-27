@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "player_interact":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"coin\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ct:special_coins/click_coin"
+    }
+}

@@ -1,0 +1,2 @@
+execute as @n[type=marker,tag=table_coin_slot,distance=..0.2] at @s run return run function ct:special_coins/ray/ray_selected
+execute if entity @s[distance=..5] positioned ^ ^ ^0.1 run function ct:special_coins/ray/ray
