@@ -56,8 +56,22 @@ function ct:inits/coin
 
 #init animation data
 data remove storage ps:ani_data ani_data
-function ct:inits/0_coin_head
-function ct:inits/1_coin_tail
+function ct:inits/coin_0_head
+function ct:inits/coin_1_head
+function ct:inits/coin_2_head
+function ct:inits/coin_3_head
+function ct:inits/coin_4_head
+function ct:inits/coin_5_head
+function ct:inits/coin_6_head
+function ct:inits/coin_7_head
+function ct:inits/coin_8_tail
+function ct:inits/coin_9_tail
+function ct:inits/coin_10_tail
+function ct:inits/coin_11_tail
+function ct:inits/coin_12_tail
+function ct:inits/coin_13_tail
+function ct:inits/coin_14_tail
+function ct:inits/coin_15_tail
 
 #init scoreboards
 scoreboard objectives add table_coin_index dummy

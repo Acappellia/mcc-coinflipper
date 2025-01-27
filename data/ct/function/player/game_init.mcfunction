@@ -11,8 +11,6 @@ function ct:give_coin/spec {coin_id:1}
 function ct:give_coin/spec {coin_id:1}
 function ct:give_coin/spec {coin_id:1}
 function ct:give_coin/spec {coin_id:1}
-function ct:give_coin/spec {coin_id:1}
-function ct:give_coin/spec {coin_id:1}
 function ct:give_coin/spec {coin_id:2}
 function ct:give_coin/spec {coin_id:3}
 
