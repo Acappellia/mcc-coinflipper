@@ -1,7 +1,7 @@
 scoreboard players set #round_status ct 2
 
 scoreboard players reset #round_check_result ct
-execute if score #current_round ct matches 1 run function ct:player/round_check/1_1
+execute if score #current_round ct matches 1 run function ct:player/round_check/1-1
 
 execute if score #round_check_result ct matches 0 run return run function ct:player/round_fail
 

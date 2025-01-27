@@ -29,3 +29,4 @@
             - ishead:0/1
             - 
     - gened_coin[] 待收集的硬币id
+- ct:coin 硬币存储

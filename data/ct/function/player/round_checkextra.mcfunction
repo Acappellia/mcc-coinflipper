@@ -3,7 +3,7 @@ scoreboard players set #round_status ct 3
 scoreboard players set #round_status ct 2
 
 scoreboard players reset #round_check_result_extra ct
-execute if score #current_round ct matches 1 run function ct:player/round_check/1_2
+execute if score #current_round ct matches 1 run function ct:player/round_check/1-2
 
 execute if score #round_check_result_extra ct matches 0 at @e[type=marker,tag=table_coin_slot,tag=table_hint_slot_3b] run function ct:player/round_fail_effect
 execute if score #round_check_result_extra ct matches 0 run data merge entity @n[type=text_display,tag=round_hint3] {background:1299058961}

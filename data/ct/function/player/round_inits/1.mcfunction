@@ -1,4 +1,4 @@
-scoreboard players set #max_toss ct 3
+scoreboard players set #toss_left ct 3
 
 execute at @e[type=marker,tag=table_hint_slot_1] run summon text_display ~ ~ ~ {Tags:["round_hint","round_hint1"],text:'"抛出三枚硬币"',alignment:"center",transformation:[2,0,0,0,0,2,0,0,0,0,2,0,0,0,0,1]}
 #execute at @e[type=marker,tag=table_coin_slot,tag=table_hint_slot_2a] run summon text_display ~ ~ ~ {Tags:["round_hint"],text:'"抛出三枚硬币"',alignment:"center",transformation:[2,0,0,0,0,2,0,0,0,0,2,0,0,0,0,1]}
