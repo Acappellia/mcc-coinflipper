@@ -23,7 +23,6 @@ execute if score #toss_coin_id ct matches 16 run return run function ct:special_
 execute if score #toss_coin_id ct matches 17 run function ct:special_coins/17_land
 execute if score #toss_coin_id ct matches 18 run function ct:special_coins/18_land
 execute if score #toss_coin_id ct matches 19 run function ct:special_coins/19_land
-execute if score #toss_coin_id ct matches 20 run function ct:special_coins/20/trigger
 execute if score #toss_coin_id ct matches 21 run function ct:special_coins/21_land
 execute if score #toss_coin_id ct matches 22 run function ct:special_coins/22_land
 execute if score #toss_coin_id ct matches 23 run return run function ct:special_coins/23_land
