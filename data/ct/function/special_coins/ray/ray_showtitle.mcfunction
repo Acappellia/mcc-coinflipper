@@ -1,4 +1,4 @@
-title @s times 0 2 0
+title @s times 0 3 0
 
 execute if score #ray_selected_coin_id ct matches 1 if score #ray_selected_coin_ishead ct matches 1 run title @s subtitle [{"text": "普通硬币","color": "white"},{"text": " | ","color": "gray"},{"text": "正面","color": "white"}]
 execute if score #ray_selected_coin_id ct matches 1 if score #ray_selected_coin_ishead ct matches 0 run title @s subtitle [{"text": "普通硬币","color": "white"},{"text": " | ","color": "gray"},{"text": "反面","color": "white"}]

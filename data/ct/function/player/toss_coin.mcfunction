@@ -4,7 +4,6 @@ advancement revoke @s only ct:toss_coin
 
 #start game
 execute if score #game_status ct matches 0 run return run function ct:player/game_init
-execute if score #game_status ct matches 2 run return run function ct:player/game_init
 
 #collect all
 execute if score #round_status ct matches 4 run return run function ct:player/round_wait_next

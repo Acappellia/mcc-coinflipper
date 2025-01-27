@@ -1,0 +1,2 @@
+scoreboard players set #game_status ct 0
+execute at @e[type=marker,tag=table_mainui_slot_startgame] run summon text_display ~ ~ ~ {Tags:["main_ui"],text:'"⟲ 重新开始"',alignment:"center",transformation:[100,0,0,0,0,0,100,0,0,-100,0,0,0,0,0,100],background:0}
