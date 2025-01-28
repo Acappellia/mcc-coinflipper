@@ -1,6 +1,6 @@
 scoreboard players set #round_status ct 3
 
-scoreboard players set #round_status ct 2
+execute as @e[type=interaction,tag=boss] on vehicle run function ps:animation/update {ani_id:20}
 
 scoreboard players reset #round_check_result_extra ct
 execute if score #current_round ct matches 1 run function ct:player/round_check/1-2

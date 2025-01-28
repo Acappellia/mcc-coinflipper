@@ -14,4 +14,6 @@ function ct:give_coin/spec {coin_id:1}
 function ct:give_coin/spec {coin_id:2}
 function ct:give_coin/spec {coin_id:3}
 
-function ct:player/round_start
+execute as @e[type=interaction,tag=boss] on vehicle run function ps:animation/update {ani_id:17}
+
+schedule function ct:player/round_start 160

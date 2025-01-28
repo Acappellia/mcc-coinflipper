@@ -49,6 +49,9 @@ execute if score #toss_coin_id ct matches 13 run function ct:special_coins/13_to
 execute if score #toss_coin_id ct matches 15 run function ct:special_coins/15_toss
 execute if score #toss_coin_id ct matches 99 run function ct:special_coins/99_toss
 
+#boss animate
+execute as @e[type=interaction,tag=boss] on vehicle run function ps:animation/update {ani_id:17}
+
 #toss
 scoreboard players set #ani_is_coin ct 1
 execute at @e[type=marker,distance=..10,tag=table_mainui_slot_center] run function ps:animation/add with storage ct:tmp toss_result

@@ -72,6 +72,14 @@ function ct:inits/coin_12_tail
 function ct:inits/coin_13_tail
 function ct:inits/coin_14_tail
 function ct:inits/coin_15_tail
+function ct:inits/boss_16_wait_idle
+function ct:inits/boss_17_entry
+function ct:inits/boss_18_sit_idle
+function ct:inits/boss_19_toss
+function ct:inits/boss_20_player_small_win
+function ct:inits/boss_21_player_small_lose
+function ct:inits/boss_22_player_big_win
+function ct:inits/boss_23_player_big_lose
 
 #init scoreboards
 scoreboard objectives add table_coin_index dummy
