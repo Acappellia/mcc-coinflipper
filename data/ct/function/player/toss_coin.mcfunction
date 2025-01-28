@@ -50,7 +50,7 @@ execute if score #toss_coin_id ct matches 15 run function ct:special_coins/15_to
 execute if score #toss_coin_id ct matches 99 run function ct:special_coins/99_toss
 
 #boss animate
-execute as @e[type=interaction,tag=boss] on vehicle run function ps:animation/update {ani_id:17}
+execute as @e[type=interaction,tag=boss] on vehicle run function ps:animation/update {ani_id:19}
 
 #toss
 scoreboard players set #ani_is_coin ct 1
