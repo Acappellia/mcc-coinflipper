@@ -1,3 +1,13 @@
+gamerule keepInventory true
+gamerule sendCommandFeedback false
+gamerule doDaylightCycle false
+gamerule doMobSpawning false
+gamerule doFireTick false
+gamerule fallDamage false
+gamerule doInsomnia false
+gamerule disableRaids false
+gamerule spawnRadius 0
+
 gamerule maxCommandChainLength 200000
 
 #init main scoreboard & values

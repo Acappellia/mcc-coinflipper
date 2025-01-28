@@ -17,6 +17,6 @@ execute if score #player_life ct matches 1.. at @e[type=marker,tag=table_mainui_
 execute if score #player_life ct matches ..0 as @e[type=interaction,tag=boss] on vehicle run function ps:animation/update {ani_id:23}
 execute if score #player_life ct matches 1.. as @e[type=interaction,tag=boss] on vehicle run function ps:animation/update {ani_id:22}
 execute if score #player_life ct matches 1.. at @e[type=marker,tag=table_mainui_slot_center] run playsound cointosser:victory player @a ~ ~ ~ 1 1
-execute if score #player_life ct matches ..0 run schedule function ct:player/killed 60t replace
+execute if score #player_life ct matches ..0 run schedule function ct:player/killed 15t replace
 
 schedule function ct:player/game_reset 180t replace
