@@ -1,6 +1,6 @@
 scoreboard players set #toss_status ct 5
 
-execute at @e[type=marker,tag=table_mainui_slot_center] run playsound item.armor.equip_leather player @a ~ ~ ~ 1 1
+execute at @n[type=marker,tag=table_mainui_slot_center] run playsound item.armor.equip_leather player @a ~ ~ ~ 1 1
 
 scoreboard players operation #coin_to_flip ct = #coin_list_last ct
 scoreboard players remove #coin_to_flip ct 1

@@ -7,7 +7,7 @@ data merge entity @n[type=text_display,tag=round_hint3] {background:-479325935}
 
 scoreboard players remove #player_life ct 1
 execute if score #current_round ct = #max_rounds ct run scoreboard players set #player_life ct 0
-execute at @e[type=marker,tag=table_mainui_slot_center] as @p run damage @s 1
+execute at @n[type=marker,tag=table_mainui_slot_center] as @p run damage @s 1
 
 execute if score #player_life ct matches 0 run return run schedule function ct:player/game_finished 30t replace
 execute if score #current_round ct = #max_rounds ct run return run schedule function ct:player/game_finished 30t replace

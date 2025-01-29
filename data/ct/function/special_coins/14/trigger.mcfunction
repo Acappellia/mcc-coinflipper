@@ -10,7 +10,7 @@ execute if score #coin_to_recycle ct matches 0.. as @e[type=marker,tag=table_coi
 data remove storage ct:table coin_list[-2]
 
 scoreboard players add #toss_left ct 1
-execute at @e[type=marker,tag=table_mainui_slot_center] run playsound entity.illusioner.mirror_move player @a ~ ~ ~ 0.8 2
+execute at @n[type=marker,tag=table_mainui_slot_center] run playsound entity.illusioner.mirror_move player @a ~ ~ ~ 0.8 2
 
 #end toss
 schedule function ct:player/toss_end 10t replace

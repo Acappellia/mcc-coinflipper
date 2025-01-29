@@ -7,4 +7,4 @@ kill @s
 
 execute if score #toss_ishead ct matches 1 run function ct:give_coin/spec with storage ct:tmp return_coin
 execute if score #toss_ishead ct matches 1 run scoreboard players add #toss_left ct 1
-execute if score #toss_ishead ct matches 1 at @e[type=marker,tag=table_mainui_slot_center] run playsound entity.illusioner.mirror_move player @a ~ ~ ~ 0.8 2
+execute if score #toss_ishead ct matches 1 at @n[type=marker,tag=table_mainui_slot_center] run playsound entity.illusioner.mirror_move player @a ~ ~ ~ 0.8 2

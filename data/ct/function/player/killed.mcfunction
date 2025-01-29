@@ -1,1 +1,1 @@
-execute at @e[type=marker,tag=table_mainui_slot_center] run kill @p
+execute at @n[type=marker,tag=table_mainui_slot_center] run kill @p

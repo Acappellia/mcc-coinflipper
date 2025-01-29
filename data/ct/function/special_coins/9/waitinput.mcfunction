@@ -1,1 +1,1 @@
-execute at @e[type=marker,tag=table_mainui_slot_center] run summon text_display ~ ~ ~ {Tags:["newbie_hint"],text:'"点击一枚硬币将其移除"',alignment:"center",transformation:[100,0,0,0,0,0,100,0,0,-100,0,0,0,0,0,80],background:0}
+execute at @n[type=marker,tag=table_mainui_slot_center] run summon text_display ~ ~ ~ {Tags:["newbie_hint"],text:'"点击一枚硬币将其移除"',alignment:"center",transformation:[100,0,0,0,0,0,100,0,0,-100,0,0,0,0,0,80],background:0}

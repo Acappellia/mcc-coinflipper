@@ -1,6 +1,6 @@
 scoreboard players set #round_status ct 4
 
-execute at @e[type=marker,tag=table_mainui_slot_center] run playsound entity.villager.ambient player @a ~ ~ ~ 1 2
+execute at @n[type=marker,tag=table_mainui_slot_center] run playsound entity.villager.ambient player @a ~ ~ ~ 1 2
 
 execute at @e[type=text_display,tag=round_hint] run particle smoke ~ ~ ~ 0.6 0 0 0.02 6
 kill @e[type=text_display,tag=round_hint]
