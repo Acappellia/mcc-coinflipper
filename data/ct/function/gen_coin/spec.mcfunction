@@ -1,5 +1,5 @@
 playsound block.chain.place player @a ~ ~ ~ 1 1
-particle firework ~ ~ ~ 0 0 0 0.1 10
+particle firework ~ ~ ~ 0 0 0 0.04 10
 
 summon text_display ~ ~ ~ {alignment:"center",Tags:["gened_coin"],Passengers:[\
 {id:"item_display",Tags:["part_1"],transformation:[-1,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,2]},\

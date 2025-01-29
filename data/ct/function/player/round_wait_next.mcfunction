@@ -6,7 +6,7 @@ function ct:give_coin/gened
 
 playsound item.armor.equip_chain player @a ~ ~ ~ 1 1
 
-execute at @e[type=text_display,tag=gened_coin] run particle wax_off ~ ~ ~ 0.1 0.1 0.1 0 4
+execute at @e[type=text_display,tag=gened_coin] run particle wax_off ~ ~ ~ 0.03 0.03 0.03 0 4
 execute as @e[type=text_display,tag=gened_coin] on passengers run kill @s
 execute as @e[type=text_display,tag=gened_coin] run kill @s
 

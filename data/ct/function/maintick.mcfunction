@@ -14,3 +14,6 @@ execute if score #round_status ct matches 1 as @a at @s anchored eyes positioned
 
 execute as @a run function ct:tp/tp_tick
 
+#music tick
+
+execute if score #game_status ct matches 1 run function ct:music_tick

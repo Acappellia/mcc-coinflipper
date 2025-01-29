@@ -21,6 +21,7 @@ execute if score #current_round ct matches 9 run function ct:player/round_inits/
 execute if score #current_round ct matches 10 if score #round_variant ct matches 1 run function ct:player/round_inits/10a
 execute if score #current_round ct matches 10 if score #round_variant ct matches 2 run function ct:player/round_inits/10b
 
+execute at @e[type=text_display,tag=round_hint] run particle end_rod ~ ~ ~ 0.6 0 0 0.03 6
 execute at @e[type=marker,tag=table_mainui_slot_center] run playsound entity.villager.ambient player @a ~ ~ ~ 1 2
 
 scoreboard players set #toss_status ct 1

@@ -3,9 +3,9 @@ scoreboard players set #game_status ct 2
 
 execute at @e[type=marker,tag=table_mainui_slot_center] run playsound entity.villager.ambient player @a ~ ~ ~ 1 2
 
-execute at @e[type=text_display,tag=round_hint] run particle smoke ~ ~ ~ 1 0 0 0.02 10
+execute at @e[type=text_display,tag=round_hint] run particle smoke ~ ~ ~ 0.6 0 0 0.02 6
 kill @e[type=text_display,tag=round_hint]
-execute at @e[type=text_display,tag=landed_coin] run particle smoke ~ ~ ~ 0 0 0 0.02 10
+execute at @e[type=text_display,tag=landed_coin] run particle smoke ~ ~ ~ 0 0 0 0.02 5
 execute as @e[type=text_display,tag=landed_coin] on passengers run kill @s
 execute as @e[type=text_display,tag=landed_coin] run kill @s
 
